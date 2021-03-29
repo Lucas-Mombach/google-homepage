@@ -1,0 +1,11 @@
+.material-icons-outlined{
+  font-family: 'Material Icons';
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  float: right;
+}
