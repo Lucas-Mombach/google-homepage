@@ -1,6 +1,16 @@
 .material-icons-outlined{
   font-family: 'Material Icons';
 }
+.flex-center {
+  /*-webkit-appearance: none;
+  appearance: none;
+  all:unset;*/
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;*/
+  
+}
 ul{
   list-style-type: none;
   margin: 0;
@@ -12,7 +22,7 @@ li{
 .nav-upper-right{
   float: right;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration: none;
 
   }
@@ -20,20 +30,20 @@ li{
 .nav-bottom-left{
   float: left;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration: none;
+  
 }
 
 .nav-bottom-right{
   float: right;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration: none;
-
-}
-footer{
-  background-color: #f2f2f2;
-}
-.google{
   
 }
+.footer{
+  appearance: none;
+  color: #f2f2f2;
+}
+
