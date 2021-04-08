@@ -1,0 +1,95 @@
+.material-icons-outlined{
+  font-family: 'Material Icons';
+  color: #5f6368;
+}
+.flex-center {
+  /*-webkit-appearance: none;
+  appearance: none;
+  all:unset;*/
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;*/
+  
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+
+  }
+.nav-upper-right{
+  float: right;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  
+  }
+
+.nav-bottom-left{
+  float: left;
+  text-align: center;
+  padding: 10px 10px;
+  
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  color: #70757A;
+ 
+}
+
+.nav-bottom-right{
+  float: right;
+  text-align: center;
+  padding: 10px 10px;
+  margin-right: 10px;
+  
+  
+  
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: #70757A;
+  
+}
+footer{
+  
+  background-color: #f2f2f2;
+  height: 35px;
+  width: 100%;
+  /*
+  
+   */
+   position: absolute;
+   display: block;
+   padding: 10px;
+   white-space: nowrap;
+   bottom: 0;
+}
+a {
+  font-family: Arial, sans-serif;
+  font-size: large;
+  color: #70757A;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.nav-upper-right a{
+  font-size: small;
+}
+
+button{
+  background-color: #F8F9FA;
+  border-radius: 4px;
+  border: 1px;
+  border-color: #F8F9FA;
+  padding: 8px 10px;
+    
+}
+button:hover{
+  border-color: #5f6368;
+}
