@@ -1,16 +1,10 @@
+body{
+  font-family: Arial, sans-serif;
+}
 .material-icons-outlined{
   font-family: 'Material Icons';
   color: #5f6368;
-}
-.flex-center {
-  /*-webkit-appearance: none;
-  appearance: none;
-  all:unset;*/
-  display: flex;
-  justify-content: center;
-  padding-top: 30px;
-  padding-bottom: 30px;*/
-  
+  font-size: x-large;
 }
 ul{
   list-style-type: none;
@@ -25,14 +19,12 @@ li{
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
-  
   }
 
 .nav-bottom-left{
   float: left;
   text-align: center;
   padding: 10px 10px;
-  
   font-family: Arial, sans-serif;
   font-size: medium;
   color: #70757A;
@@ -45,8 +37,6 @@ li{
   padding: 10px 10px;
   margin-right: 10px;
   
-  
-  
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
@@ -58,17 +48,14 @@ footer{
   background-color: #f2f2f2;
   height: 35px;
   width: 100%;
-  /*
-  
-   */
-   position: absolute;
-   display: block;
-   padding: 10px;
-   white-space: nowrap;
-   bottom: 0;
+  position: absolute;
+  display: block;
+  padding: 10px;
+  white-space: nowrap;
+  bottom: 0;
 }
 a {
-  font-family: Arial, sans-serif;
+
   font-size: large;
   color: #70757A;
   text-decoration: none;
@@ -79,17 +66,46 @@ a:hover{
 }
 
 .nav-upper-right a{
-  font-size: small;
+  font-size: 14px;
+  color: #3c4043;
+  
 }
 
 button{
+  font-size: 16px;
   background-color: #F8F9FA;
   border-radius: 4px;
   border: 1px;
   border-color: #F8F9FA;
-  padding: 8px 10px;
+  padding: 10px 12px;
+  margin-left: 20px;
     
 }
 button:hover{
-  border-color: #5f6368;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+}
+#logo{
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+  left: 160px;
+  top: 30px;
+}
+input{
+  width: 40%;
+  height: 38px;
+  border-radius: 90px;
+  border-color: #DFE1E5;
+  padding-left:30px; 
+}
+}
+input:hover{
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
